@@ -32,7 +32,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
         },
       }}
       transition={{
-        duration: 0.6,
+        duration: 0.9,
       }}
       initial="initial"
       animate={citation ? "initial" : "invisible"}

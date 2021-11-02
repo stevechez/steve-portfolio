@@ -6,8 +6,8 @@
     "p0": "Seasoned Front-End developer.",
     "des0": "I am a well-rounded IT professional with a passion for pushing the limits of what software web applications can do, and finding the right tools to do so.",
     "p1": "Currently consulting and freelancing, open to new opportunities.",
-    "des2": "My preferred tech stack is React, TypeScript, Node, HTML, CSS/SCSS/Tailwind,",
-    "des3": ""
+    "des2": "My preferred tech stack is React, Javascript/Typescript, Node, HTML, CSS/SCSS/Tailwind, ",
+    "des3": "and am comfortable with Vue and Angular."
   },
   "projects": {
     "title": "Projects",
@@ -38,7 +38,7 @@
     },
     "steve-resume": {
       "subtitle": "My resume portfolio",
-      "description": "Older version of my online resume to showcase my skills."
+      "description": "Older version of my online resume to showcase my skills viewable at:  https://my-portfolio-nine-eosin.vercel.app"
     }
 
   },
