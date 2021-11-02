@@ -1,6 +1,7 @@
 import { Container, Section } from "components";
 import { useTranslation } from "next-i18next";
 import React, { FC } from "react";
+import { FaPhoneAlt } from "react-icons/fa";
 
 export const Contact: FC = () => {
   const { t } = useTranslation("common");
@@ -12,14 +13,13 @@ export const Contact: FC = () => {
       description={t("contact.description")}
     >
       <Container>
-        <div className="mt-4">
+        <button className="mt-6 inline-flex items-center rounded bg-gray-50 px-4 py-2 mr-4 text-white bg-blue-900 hover:bg-blue-700">
+          <FaPhoneAlt className="mr-2" />
           <a
-            href="mailto:stevemaciaszek@comcast.net"
-            className="text-base font-normal md:text-xl text-black-900 dark:text-white-900"
-          >
-            stevemaciaszek@comcast.net
+            href="mailto:stevemaciaszek@comcast.net">
+            Let's Talk
           </a>
-        </div>
+        </button>
       </Container>
     </Section>
   );

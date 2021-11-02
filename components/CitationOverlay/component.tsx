@@ -56,7 +56,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           animate="visible"
           transition={{
             delay: 0,
-            duration: 1.6,
+            duration: 2.6,
           }}
         >
           {t("citation.content")}
@@ -68,7 +68,7 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
           variants={textVariants}
           transition={{
             delay: 2.0,
-            duration: 1.2,
+            duration: 2.6,
           }}
         >
           {t("citation.author")}

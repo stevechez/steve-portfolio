@@ -10,6 +10,15 @@ export const Projects: FC = () => {
   const projects = useMemo(
     () => [
       {
+        title: "Apple",
+        subtitle: t("projects.aos-ipad.subtitle"),
+        description: t("projects.aos-ipad.description"),
+        technologies: ["HTML", "CSS", "Javascript"],
+        externalLink: "",
+        githubLink: "",
+        imageLink: `/images/ipad-air.png`,
+      },
+      {
         title: "eHealth",
         subtitle: t("projects.ehealthhome.subtitle"),
         description: t("projects.ehealthhome.description"),
@@ -17,15 +26,6 @@ export const Projects: FC = () => {
         externalLink: "http://www.ehealth.com",
         githubLink: "",
         imageLink: `/images/ehealth-home.png`,
-      },
-      {
-        title: "eHeath",
-        subtitle: t("projects.ehealthsearch.subtitle"),
-        description: t("projects.ehealthsearch.description"),
-        technologies: ["HTML", "CSS", "Javascript"],
-        externalLink: "",
-        githubLink: "",
-        imageLink: `/images/ehealth-search.png`,
       },
       {
         title: "Apple",
@@ -37,13 +37,13 @@ export const Projects: FC = () => {
         imageLink: `/images/aos-adobe.png`,
       },
       {
-        title: "Apple",
-        subtitle: t("projects.aos-ipad.subtitle"),
-        description: t("projects.aos-ipad.description"),
+        title: "eHeath",
+        subtitle: t("projects.ehealthsearch.subtitle"),
+        description: t("projects.ehealthsearch.description"),
         technologies: ["HTML", "CSS", "Javascript"],
         externalLink: "",
         githubLink: "",
-        imageLink: `/images/ipad-air.png`,
+        imageLink: `/images/ehealth-search.png`,
       },
       {
         title: "Uptake",

@@ -4,29 +4,29 @@
     "title": "Hi, I'm Steve!",
     "title2": "thank you for stopping by a reviewing my work.",
     "p0": "Seasoned Front-End developer.",
-    "des0": "I am a well-rounded IT professional with a passion for pushing the limits of what software web applications can do, and finding the right tools to do so.",
-    "p1": "Currently consulting and freelancing, open to new opportunities.",
+    "des0": "I am a well-rounded developer with a passion for pushing the limits of what software web applications can do, and finding the right tools to do so.",
+    "p1": "Currently consulting and freelancing, open to new full-time or contract opportunities.",
     "des2": "My preferred tech stack is React, Javascript/Typescript, Node, HTML, CSS/SCSS/Tailwind, ",
-    "des3": "and am comfortable with Vue and Angular."
+    "des3": "and am comfortable working with Vue and Angular."
   },
   "projects": {
     "title": "Projects",
     "description": "Here are some projects that I have coded and designed, both alone and with various teams.",
+    "aos-ipad": {
+      "subtitle": "Apple Online Store",
+      "description": "Built out the pages and components (desktop, tablet, and mobile) for the Apple Online Store."
+    },
     "ehealthhome": {
       "subtitle": "eHealth Home Page redesign",
       "description": "Lead the redesign of a version 2 of the corporate site.  With the design team, prototyped pages and components to finalize overall look and feel."
-    },
-    "ehealthsearch": {
-      "subtitle": "eHealth Search Results page",
-      "description": "Prototyped the redesign of version 2 of the search results page.  Also contributed in building out various components as a part of the team."
     },
     "apple-adobe": {
       "subtitle": "Adobe Landing Page",
       "description": "This landing page was developed for the Apple Online Store.  This page existed in a previous version of the site."
     },
-    "aos-ipad": {
-      "subtitle": "Apple Online Store",
-      "description": "Built out the pages and components (desktop, tablet, and mobile) for the Apple Online Store."
+    "ehealthsearch": {
+      "subtitle": "eHealth Search Results page",
+      "description": "Prototyped the redesign of version 2 of the search results page.  Also contributed in building out various components as a part of the team."
     },
     "uptake": {
       "subtitle": "Uptake site redesign",
@@ -56,9 +56,7 @@
   },
   "currently": "Currently",
   "citation": {
-    "content": "Great web design without functionality is like a sports car with no engine.",
-    "author": "- Paul Cookson"
-  },
-  "covid19": "Postponed due to Covid-19",
-  "and": "and"
+    "content": "Design is not just what it looks like and feels like. Design is how it works.",
+    "author": "- Steve Jobs"
+  }
 }
