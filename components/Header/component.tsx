@@ -58,9 +58,9 @@ export const Header: FC = () => {
     setTheme(theme === Themes.light ? Themes.dark : Themes.light);
   }, [setTheme, theme, playOnDark, playOnLight]);
 
-  const toggleLangPicker = useCallback(() => {
-    setLangPicker((prev) => !prev);
-  }, []);
+  // const toggleLangPicker = useCallback(() => {
+  //   setLangPicker((prev) => !prev);
+  // }, []);
 
   const turnOffLangPicker = useCallback(() => {
     setLangPicker(false);
@@ -68,17 +68,17 @@ export const Header: FC = () => {
 
   useOnClickOutside(ref, turnOffLangPicker);
 
-  const toggleLanguage = useCallback(
-    (newLanguage: Languages) => {
-      return () => {
-        turnOffLangPicker();
-        setLanguage(newLanguage);
-        if (newLanguage !== language)
-          router.push("/", "/", { locale: newLanguage });
-      };
-    },
-    [router, turnOffLangPicker, language]
-  );
+  // const toggleLanguage = useCallback(
+  //   (newLanguage: Languages) => {
+  //     return () => {
+  //       turnOffLangPicker();
+  //       setLanguage(newLanguage);
+  //       if (newLanguage !== language)
+  //         router.push("/", "/", { locale: newLanguage });
+  //     };
+  //   },
+  //   [router, turnOffLangPicker, language]
+  // );
 
   useEffect(() => setMounted(true), []);
 
