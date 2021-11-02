@@ -1,11 +1,7 @@
 import clsx from "clsx";
-import { MediaIcon } from "components";
 import { motion } from "framer-motion";
 import { useHover } from "lib";
 import React, { FC } from "react";
-import { FaGithub } from "react-icons/fa";
-
-import { OutIcon } from "../OutIcon";
 import { Props } from "./props";
 import styles from "./styles.module.css";
 
