@@ -17,20 +17,20 @@ export const Experience: FC = () => {
     () => [
       {
         title: "UI Developer",
-        company: "Grid Dynamics | Silicon Valley Bank",
+        // company: "Grid Dynamics | Silicon Valley Bank",
         place: "Santa Clara, CA",
         date: "Jan 2020 - Apr 2021",
       },
       {
         title: "UI Developer",
-        company: "eHealth",
+        // company: "eHealth",
         place: "Mountain View, CA",
         date: "Oct 2012 - Dec 2014",
         cancelled: true,
       },
       {
         title: "UI Prototyper",
-        company: "IMVU",
+        // company: "IMVU",
         place: "Mountain View, CA",
         date: "Oct 2011 - Aug 2012",
       },
@@ -41,25 +41,25 @@ export const Experience: FC = () => {
       },
       {
         title: "Sr. Web Developer",
-        company: "Uptake",
+        // company: "Uptake",
         place: "Palo Alto, CA",
         date: "Jan 2011 - Oct 2011",
       },
       {
         title: "Sr. UI Developer",
-        company: "Apple",
+        // company: "Apple",
         place: "Cupertino, CA",
         date: "Jan 2009 - Jan 2011",
       },
       {
         title: "UI Developer",
-        company: "Ooma",
+        // company: "Ooma",
         place: "Palo Alto, CA",
         date: "Mar 2008 - Nov 2008",
       },
       {
         title: "Founder/Web Developer",
-        company: "Piczo",
+        // company: "Piczo",
         place: "San Francisco, CA",
         date: "Jan 2002 - Dec 2007",
       },
@@ -113,8 +113,8 @@ export const Experience: FC = () => {
             </>
           ) : (
             <div>
-              {experience.slice(3).map((item, i) => (
-                  <Item
+              {experience.map((item, i) => (
+                <Item
                   {...item}
                   key={i}
                   first={i === 0}

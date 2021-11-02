@@ -3,7 +3,6 @@ import { HTMLAttributes } from "react";
 
 export type Props = HTMLAttributes<HTMLDivElement> & {
   title: string;
-  company: string;
   place: string;
   date: string;
   custom: number;

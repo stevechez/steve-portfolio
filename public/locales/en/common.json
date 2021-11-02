@@ -35,6 +35,10 @@
     "ooma": {
       "subtitle": "Ooma site redesign",
       "description": "Worked with a team to design and develop this state of the art phone service provider."
+    },
+    "steve-resume": {
+      "subtitle": "My resume portfolio",
+      "description": "Older version of my online resume to showcase my skills."
     }
 
   },
@@ -48,7 +52,7 @@
   },
   "contact": {
     "title": "Contact me",
-    "description": "Feel free to reach out, we could set up a quick chat."
+    "description": "Feel free to reach out, we could set up a quick chat to discuss."
   },
   "currently": "Currently",
   "citation": {

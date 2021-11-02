@@ -7,7 +7,6 @@ import { Props } from "./props";
 
 export const Item: FC<Props> = ({
   title,
-  company,
   place,
   date,
   last,
@@ -42,7 +41,6 @@ export const Item: FC<Props> = ({
       <div className="w-2 h-2 bg-gray-700 rounded-full dark:bg-white-700" />
       <div className="ml-8 dark:text-white-700 text-black-700">
         <p className="text-base font-medium">{title}</p>
-        <p className="text-base">{company}</p>
         <p className="text-base">{place}</p>
         <p className="flex items-center text-sm mt-0.5 dark:text-white-500">
           {date}
