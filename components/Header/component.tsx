@@ -17,20 +17,21 @@ enum Themes {
 
 enum Languages {
   en = "en",
-  // ru = "ru",
+  esp = "sp",
 }
 
 const languages = [
-  // {
-  //   id: Languages.ru,
-  //   name: "RU",
-  //   flag: "🇷🇺",
-  // },
+
   {
     id: Languages.en,
     name: "EN",
     flag: "🇺🇸",
   },
+  {
+    id: Languages.esp,
+    name: "SP",
+    flag: "🇪🇸",
+  }
 ];
 
 export const Header: FC = () => {

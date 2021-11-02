@@ -1,0 +1,62 @@
+{
+  "headTitle": "Steve Maciaszek | portafolio",
+  "hero": {
+    "title": "¡Hola, soy Steve!",
+    "title2": "gracias por pasar y revisar mi trabajo.",
+    "p0": "Desarrollador front-end experimentado.",
+    "des0": "Soy un desarrollador completo con una pasión por superar los límites de lo que pueden hacer las aplicaciones web de software y encontrar las herramientas adecuadas para hacerlo.",
+    "p1": "Actualmente consultor y autónomo, abierto a nuevas oportunidades de tiempo completo o de contrato.",
+    "des2": "Mi pila de tecnología preferida es React, Javascript / Typecript, Node, HTML, CSS / SCSS / Tailwind, ",
+    "des3": "y me siento cómodo trabajando con Vue y Angular."
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "Aquí hay algunos proyectos que he codificado y diseñado, tanto solo como con varios equipos.",
+    "aos-ipad": {
+      "subtitle": "Tienda en línea de Apple",
+      "description": "Aquí hay algunos proyectos que he codificado y diseñado. Construí las páginas y componentes (escritorio, tableta y móvil) para Apple Online Store.ned, tanto solo como con varios equipos."
+    },
+    "ehealthhome": {
+      "subtitle": "Rediseño de la página de inicio de eHealth",
+      "description": "Liderar el rediseño de una versión 2 del sitio corporativo. Con el equipo de diseño, prototipos de páginas y componentes para finalizar la apariencia general."
+    },
+    "apple-adobe": {
+      "subtitle": "Página de inicio de Adobe",
+      "description": "Esta página de inicio fue desarrollada para la Apple Online Store. Esta página existía en una versión anterior del sitio."
+    },
+    "ehealthsearch": {
+      "subtitle": "Página de resultados de búsqueda de eHealth",
+      "description": "Prototipo del rediseño de la versión 2 de la página de resultados de búsqueda. También contribuyó a la construcción de varios componentes como parte del equipo."
+    },
+    "uptake": {
+      "subtitle": "Rediseño del sitio de adopción",
+      "description": "Trabajé con un equipo para rediseñar y desarrollar completamente este sitio de reseñas, información y recomendaciones de viajes."
+    },
+    "ooma": {
+      "subtitle": "Rediseño del sitio de Ooma",
+      "description": "Trabajé con un equipo para diseñar y desarrollar este proveedor de servicios telefónicos de última generación."
+    },
+    "steve-resume": {
+      "subtitle": "Mi portafolio de currículum",
+      "description": "La versión anterior de mi currículum en línea para mostrar mis habilidades se puede ver en: https://my-portfolio-nine-eosin.vercel.app"
+    }
+
+  },
+  "skills": {
+    "title": "Habilidades",
+    "description": "Me apasiona utilizar tecnologías de vanguardia. Estas son las herramientas con las que estoy más familiarizado y construyo cosas todos los días."
+  },
+  "experience": {
+    "title": "Experiencia",
+    "description": "Aquí hay algunas grandes empresas a las que tuve el honor de unirme para trabajar en varios proyectos interesantes."
+  },
+  "contact": {
+    "title": "Contáctame",
+    "description": "No dudes en comunicarte con nosotros, podríamos establecer un chat rápido para discutir."
+  },
+  "currently": "Currently",
+  "citation": {
+    "content": "El diseño no es solo cómo se ve y se siente.  El diseño es cómo funciona.",
+    "author": "- Steve Jobs"
+  }
+}

@@ -47,10 +47,10 @@ export const CitationOverlay: FC<Props> = ({ citation }: Props) => {
             duration: 1.2,
           }}
         >
-          <NinjaIcon className="w-10 mb-2 fill-current md:ml-auto dark:text-white-900 text-black-900" />
+          <NinjaIcon className="w-10 mb-2 fill-current md:ml-auto dark:text-white-900 text-black-900 sm:float-right" />
         </motion.div>
         <motion.p
-          className="mt-6 mb-2 text-xl font-medium leading-none md:text-2xl dark:text-white-900 text-black-900 md:my-0"
+          className="mt-6 mb-2 text-xl font-medium md:text-2xl dark:text-white-900 text-black-900 md:my-0 leading-relaxed"
           variants={textVariants}
           initial="initial"
           animate="visible"

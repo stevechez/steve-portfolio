@@ -13,10 +13,11 @@ export const Contact: FC = () => {
       description={t("contact.description")}
     >
       <Container>
-        <button className="mt-6 inline-flex items-center rounded bg-gray-50 px-4 py-2 mr-4 text-white bg-blue-900 hover:bg-blue-700">
+        <button className="mt-6 inline-flex items-center rounded bg-gray-50 px-4 py-2 mr-4 bg-blue-900 hover:bg-blue-700 text-white-900">
           <FaPhoneAlt className="mr-2" />
           <a
-            href="mailto:stevemaciaszek@comcast.net">
+            href="mailto:stevemaciaszek@comcast.net"
+            className="text-white-900">
             Let's Talk
           </a>
         </button>
