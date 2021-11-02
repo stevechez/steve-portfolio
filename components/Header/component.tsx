@@ -17,15 +17,15 @@ enum Themes {
 
 enum Languages {
   en = "en",
-  ru = "ru",
+  // ru = "ru",
 }
 
 const languages = [
-  {
-    id: Languages.ru,
-    name: "RU",
-    flag: "🇷🇺",
-  },
+  // {
+  //   id: Languages.ru,
+  //   name: "RU",
+  //   flag: "🇷🇺",
+  // },
   {
     id: Languages.en,
     name: "EN",
@@ -58,9 +58,9 @@ export const Header: FC = () => {
     setTheme(theme === Themes.light ? Themes.dark : Themes.light);
   }, [setTheme, theme, playOnDark, playOnLight]);
 
-  // const toggleLangPicker = useCallback(() => {
-  //   setLangPicker((prev) => !prev);
-  // }, []);
+  const toggleLangPicker = useCallback(() => {
+    setLangPicker((prev) => !prev);
+  }, []);
 
   const turnOffLangPicker = useCallback(() => {
     setLangPicker(false);
@@ -68,17 +68,17 @@ export const Header: FC = () => {
 
   useOnClickOutside(ref, turnOffLangPicker);
 
-  // const toggleLanguage = useCallback(
-  //   (newLanguage: Languages) => {
-  //     return () => {
-  //       turnOffLangPicker();
-  //       setLanguage(newLanguage);
-  //       if (newLanguage !== language)
-  //         router.push("/", "/", { locale: newLanguage });
-  //     };
-  //   },
-  //   [router, turnOffLangPicker, language]
-  // );
+  const toggleLanguage = useCallback(
+    (newLanguage: Languages) => {
+      return () => {
+        turnOffLangPicker();
+        setLanguage(newLanguage);
+        if (newLanguage !== language)
+          router.push("/", "/", { locale: newLanguage });
+      };
+    },
+    [router, turnOffLangPicker, language]
+  );
 
   useEffect(() => setMounted(true), []);
 
@@ -109,17 +109,17 @@ export const Header: FC = () => {
             ) : null}
           </button>
           <div className="relative ml-2 md:ml-4" ref={ref}>
-            {/* <button
+            <button
               className="py-2 pl-4 text-base font-medium uppercase rounded appearance-none pr-9 focus:outline-none focus:ring-2 focus:ring-blue-700 bg-none"
               onClick={toggleLangPicker}
             >
               {language}
-            </button> */}
+            </button>
             {langPicker && (
               <div className="absolute w-full p-1 mt-4 bg-pink dark:bg-white-900 rounded-md text-black-900">
                 {languages.map((currentLanguage, i) => (
                   <>
-                    {/* <button
+                    <button
                       className="block w-full px-2 py-1 text-left hover:bg-white-700 rounded-md transition-colors focus:outline-none"
                       key={currentLanguage.id}
                       onClick={toggleLanguage(currentLanguage.id)}
@@ -128,7 +128,7 @@ export const Header: FC = () => {
                       <span role="img" aria-label="flag">
                         {currentLanguage.flag}
                       </span>
-                    </button> */}
+                    </button>
                     {i !== languages.length - 1 && (
                       <div className="my-1 bg-white-700 h-0.5" />
                     )}
@@ -136,7 +136,7 @@ export const Header: FC = () => {
                 ))}
               </div>
             )}
-            {/* <span className="absolute top-0 right-0 flex items-center justify-center w-10 h-full text-center pointer-events-none">
+            <span className="absolute top-0 right-0 flex items-center justify-center w-10 h-full text-center pointer-events-none">
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -147,7 +147,7 @@ export const Header: FC = () => {
               >
                 <path d="M6 9l6 6 6-6"></path>
               </svg>
-            </span> */}
+            </span>
           </div>
         </div>
       </Container>
