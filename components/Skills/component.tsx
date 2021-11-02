@@ -2,10 +2,7 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { useTranslation } from "next-i18next";
 import React, { FC, useEffect } from "react";
-import { FaReact } from "react-icons/fa";
-import { SiNodeDotJs } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
-import { TsIcon} from "./libs/Icons";
 // import { Skill } from "./libs/Skill";
 
 // const skills = [
@@ -81,7 +78,6 @@ export const Skills: FC = () => {
   </div>
   </div>
       </Container>
-      
     </Section>
   );
 };
