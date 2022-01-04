@@ -1,7 +1,7 @@
 {
   "headTitle": "Steve Maciaszek | portafolio",
   "hero": {
-    "title": "¡Hola, soy Steve!",
+    "title": "¡Hola, soy Esteban!",
     "title2": "gracias por pasar y revisar mi trabajo.",
     "p0": "Desarrollador front-end experimentado.",
     "des0": "Soy un desarrollador completo con una pasión por superar los límites de lo que pueden hacer las aplicaciones web de software y encontrar las herramientas adecuadas para hacerlo.",
@@ -36,6 +36,14 @@
       "subtitle": "Rediseño del sitio de Ooma",
       "description": "Trabajé con un equipo para diseñar y desarrollar este proveedor de servicios telefónicos de última generación."
     },
+    "hulu": {
+      "subtitle": "Clonación del sitio de Hulu (proyecto personal)",
+      "description": "Este fue un proyecto personal que utilicé para ayudar a reforzar mi conjunto de habilidades en Next.js, Tailwind, Authentication, fetch API, etc."
+    },
+    "google": {
+      "subtitle": "Clonación del sitio de Google (proyecto personal)",
+      "description": "Este es un proyecto personal que es un método de aprendizaje continuo y para ayudar a reforzar mis habilidades en Next.js, Tailwind, Authentication, Search, etc."
+    },
     "steve-resume": {
       "subtitle": "Mi portafolio de currículum",
       "description": "La versión anterior de mi currículum en línea para mostrar mis habilidades se puede ver en: https://my-portfolio-nine-eosin.vercel.app"
@@ -56,7 +64,7 @@
   },
   "currently": "Currently",
   "citation": {
-    "content": "El diseño no es solo cómo se ve y se siente.  El diseño es cómo funciona.",
-    "author": "- Steve Jobs"
+    "content": "Aprender a codificar es útil sin importar cuáles sean sus ambiciones profesionales.",
+    "author": "- Arianna Huffington"
   }
 }

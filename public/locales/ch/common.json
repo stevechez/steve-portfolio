@@ -1,0 +1,62 @@
+{
+  "headTitle": "史蒂夫·馬西亞塞克 |文件夾 Shǐ dì fū·mǎ xīyǎ sāi kè |wénjiàn jiā",
+  "hero": {
+    "title": "嗨，我是史蒂夫。 ",
+    "title2": "感謝您光臨並審查我的工作。",
+    "p0": "經驗豐富的前端開發人員。",
+    "des0": "我是一名全面的開發人員，熱衷於突破軟件 Web 應用程序的極限，並找到合適的工具來做到這一點。",
+    "p1": "目前是諮詢和自由職業者，對新的全職或合同機會持開放態度。",
+    "des2": "我的首選技術棧是 React、Javascript/Typescript、Node、HTML、CSS/SCSS/Tailwind，",
+    "des3": "並且對使用 Vue 和 Angular 感到很舒服。"
+  },
+  "projects": {
+    "title": "項目",
+    "description": "以下是我單獨和與不同團隊一起編碼和設計的一些項目。",
+    "aos-ipad": {
+      "subtitle": "蘋果在線商店",
+      "description": "為 Apple 在線商店構建頁面和組件（桌面、平板電腦和移動設備）。"
+    },
+    "ehealthhome": {
+      "subtitle": "電子健康主頁重新設計",
+      "description": "領導公司網站第 2 版的重新設計。與設計團隊一起，對頁面和組件進行原型設計，以最終確定整體外觀和感覺。"
+    },
+    "apple-adobe": {
+      "subtitle": "Adobe 登陸頁面",
+      "description": "此登錄頁面是為 Apple 在線商店開發的。此頁面存在於站點的先前版本中。"
+    },
+    "ehealthsearch": {
+      "subtitle": "電子健康搜索結果頁面",
+      "description": "對搜索結果頁面第 2 版的重新設計進行原型設計。作為團隊的一部分，還為構建各種組件做出了貢獻。"
+    },
+    "uptake": {
+      "subtitle": "吸收站點重新設計",
+      "description": "與一個團隊合作，完全重新設計和開發了這個旅行評論、信息和推薦網站。"
+    },
+    "ooma": {
+      "subtitle": "Ooma 網站重新設計",
+      "description": "與一個團隊合作設計和開發這個最先進的電話服務提供商。"
+    },
+    "steve-resume": {
+      "subtitle": "我的簡歷組合",
+      "description": "我的在線簡歷的舊版本展示了我的技能，可在以下網址查看：https://my-portfolio-nine-eosin.vercel.app"
+    }
+
+  },
+  "skills": {
+    "title": "技能",
+    "description": "我熱衷於設計與開發相結合，從而創造出色的用戶體驗。這些是我最熟悉的工具，並且每天都在構建東西。"
+  },
+  "experience": {
+    "title": "經驗",
+    "description": "以下是我工作過的一些很棒的公司，以及一些個人項目。"
+  },
+  "contact": {
+    "title": "聯絡我",
+    "description": "請隨時聯繫以進行快速對話。"
+  },
+  "currently": "目前",
+  "citation": {
+    "content": "無論您的職業抱負是什麼，學習編碼都是有用的。",
+    "author": "- Arianna Huffington"
+  }
+}

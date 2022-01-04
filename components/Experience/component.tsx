@@ -64,7 +64,7 @@ export const Experience: FC = () => {
         date: "Jan 2002 - Dec 2007",
       },
     ],
-    [t]
+    []
   );
 
   useEffect(() => {

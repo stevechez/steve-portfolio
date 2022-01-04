@@ -1,7 +1,7 @@
 {
   "headTitle": "Steve Maciaszek | Portfolio",
   "hero": {
-    "title": "Hi, I'm Steve!",
+    "title": "Hi, I'm Steve.",
     "title2": "thank you for stopping by and reviewing my work.",
     "p0": "Seasoned Front-End developer.",
     "des0": "I am a well-rounded developer with a passion for pushing the limits of what software web applications can do, and finding the right tools to do so.",
@@ -36,6 +36,14 @@
       "subtitle": "Ooma site redesign",
       "description": "Worked with a team to design and develop this state of the art phone service provider."
     },
+    "hulu": {
+      "subtitle": "Hulu site clone (personal project)",
+      "description": "This is a personal project that is a method of continued learning and to help re-enforce my skillset in Next.js, Tailwind, Authentication, fetch API, etc."
+    },
+    "google": {
+      "subtitle": "Google site clone (personal project)",
+      "description": "This is a personal project that is a method of continued learning and to help re-enforce my skillset in Next.js, Tailwind, Authentication, Search, etc."
+    },
     "steve-resume": {
       "subtitle": "My resume portfolio",
       "description": "Older version of my online resume to showcase my skills viewable at:  https://my-portfolio-nine-eosin.vercel.app"
@@ -44,19 +52,19 @@
   },
   "skills": {
     "title": "Skills",
-    "description": "I am passionate about using cutting-edge technologies. These are the tools I am most familiar with and build things every day."
+    "description": "I am passionate about design coupled with development, thus creating a great user experience. These are the tools I am most familiar with and build things every day."
   },
   "experience": {
     "title": "Experience",
-    "description": "Here are some great companies I had the honor to join for working on various interesting projects."
+    "description": "Here are some great companies that I worked for, and a few personal projects."
   },
   "contact": {
     "title": "Contact me",
-    "description": "Feel free to reach out, we could set up a quick chat to discuss."
+    "description": "Feel free to reach out to set up a quick conversation."
   },
   "currently": "Currently",
   "citation": {
-    "content": "Design is not just what it looks like and feels like.\u00a0 Design is how it works.",
-    "author": "- Steve Jobs"
+    "content": "Learning to code is useful no matter what your career ambitions are.",
+    "author": "- Arianna Huffington"
   }
 }
