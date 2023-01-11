@@ -1,7 +1,7 @@
 import { Container, MediaIcon } from "components";
 import { motion } from "framer-motion";
 import { useTranslation } from "next-i18next";
-import React, { FC } from "react";
+import { FC } from "react";
 import { FaFileDownload, FaGithub, FaLinkedin } from "react-icons/fa";
 
 // import { HandWave } from "./libs/HandWave";
@@ -41,9 +41,9 @@ export const Hero: FC = () => {
         </h1>
         {/* <HandWave className="text-4xl md:text-5xl" /> */}
       </div>
-      
+
       <div className="flex justify-end border-b-2 border-white-300 pb-4 mb-8 text-right">
-      <MediaIcon
+        <MediaIcon
           icon={<FaFileDownload className="w-6 h-6 md:w-7 md:h-7" />}
           href="/assets/steveresume.pdf"
           className="mr-4"
@@ -64,7 +64,8 @@ export const Hero: FC = () => {
           {t("hero.des0")}
         </p>
         <p className="mb-8 text-base md:text-xl dark:text-white-700 text-black-700">
-          {t("hero.des2")}{t("hero.des3")}
+          {t("hero.des2")}
+          {t("hero.des3")}
         </p>
       </div>
     </Container>

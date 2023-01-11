@@ -7,7 +7,7 @@
     "des0": "I am a well-rounded developer with a passion for pushing the limits of what software web applications can do, and finding the right tools to do so.",
     "p1": "Currently consulting and freelancing, open to new full-time or contract opportunities.",
     "des2": "My preferred tech stack is React, Javascript/Typescript, Node, HTML, CSS/SCSS/Tailwind, ",
-    "des3": "and am comfortable working with Vue and Angular."
+    "des3": "and also love building out new projects with Vue3 and Angular, Remix, and Astro for clients, or working on personal projects."
   },
   "projects": {
     "title": "Projects",
@@ -48,7 +48,6 @@
       "subtitle": "My resume portfolio",
       "description": "Older version of my online resume to showcase my skills viewable at:  https://my-portfolio-nine-eosin.vercel.app"
     }
-
   },
   "skills": {
     "title": "Skills",

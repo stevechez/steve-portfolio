@@ -2,8 +2,9 @@ import { Container, Section } from "components";
 import { useAnimation } from "framer-motion";
 import { useMdScreen } from "lib";
 import { useTranslation } from "next-i18next";
-import React, { FC, useEffect, useMemo } from "react";
+import { FC, useEffect, useMemo } from "react";
 import { useInView } from "react-intersection-observer";
+// import LogoSlider from "../LogoSlider/LogoSlider";
 
 import { Item } from "./libs/Item";
 
@@ -82,6 +83,7 @@ export const Experience: FC = () => {
       title={t("experience.title")}
       description={t("experience.description")}
     >
+      {/* <LogoSlider /> */}
       <Container className="mt-14">
         <div className="flex justify-between max-w-screen-sm" ref={ref}>
           {mdScreen ? (

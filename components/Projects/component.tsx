@@ -1,6 +1,6 @@
 import { Section } from "components";
 import { useTranslation } from "next-i18next";
-import React, { FC, useMemo } from "react";
+import { FC, useMemo } from "react";
 
 import { ProjectCard } from "./libs/ProjectCard";
 
@@ -96,11 +96,11 @@ export const Projects: FC = () => {
 
   return (
     <Section
-      className="md:mt-20 mt-14"
+      className="md:mt-20 mt-1 text-blue-900"
       title={t("projects.title")}
       description={t("projects.description")}
     >
-      <div className="px-4 mx-auto mt-10 md:mt-20 md:px-8 max-w-screen-lg">
+      <div className="px-4 mx-auto mt-10 md:mt-20 md:px-8 max-w-screen-lg text-blue-700">
         {projects.map((project, i) => (
           <ProjectCard key={i} rightShift={i % 2 === 0} {...project} />
         ))}
